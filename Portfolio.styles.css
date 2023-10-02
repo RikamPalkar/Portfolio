@@ -1,3 +1,52 @@
+/* /Pages/TicTacToe/TicTacToe.razor.rz.scp.css */
+*[b-gvmy6wofue] {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+body[b-gvmy6wofue] {
+    background-color: #333;
+}
+
+h1[b-gvmy6wofue] {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #fff;
+}
+
+.board[b-gvmy6wofue] {
+    width: 31rem;
+    height: 31rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square[b-gvmy6wofue] {
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid #fff;
+    margin-right: 4px;
+    border-radius: 30px;
+    background: #142A1F;
+    opacity: 80;
+}
+
+    .square:hover[b-gvmy6wofue] {
+        background: #022724;
+        cursor: pointer;
+    }
+
+.char[b-gvmy6wofue] {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 15%;
+    color: #43B0A6;
+    font-family: 'Roboto', sans-serif;
+}
 /* /Shared/AutoHidingNavMenu.razor.rz.scp.css */
 .auto-hiding-nav-menu[b-u69ml35g1z] {
     display: flex;
@@ -21,7 +70,7 @@
 }
 
 .expand[b-u69ml35g1z] {
-    width: 80px; /* Width when expand */
+    width: 90px; /* Width when expand */
 }
 
 .nav-item[b-u69ml35g1z] {
