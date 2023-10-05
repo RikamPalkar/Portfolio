@@ -1,32 +1,56 @@
-/* /Pages/TicTacToe/TicTacToe.razor.rz.scp.css */
-*[b-gvmy6wofue] {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif; 
-}
-
-body[b-gvmy6wofue] {
-    background-color: #333;
-}
-
-.container[b-gvmy6wofue] {
+/* /Pages/Snake/Snake.razor.rz.scp.css */
+.score-info[b-x4t0k0ot9m] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 80vh; /* Use the full height of the viewport */
-    margin: 0 auto;
-    text-align: center; /* Center-align the content within the container */
-    gap: 5px;
-}
-
-h1[b-gvmy6wofue] {
-    margin-bottom: 10px;
-    font-family: 'Montserrat', sans-serif; 
+    background-color: #333;
     color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-.board[b-gvmy6wofue] {
+.current-score[b-x4t0k0ot9m] {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.top-scores[b-x4t0k0ot9m] {
+    font-size: 20px;
+}
+
+.snake-board[b-x4t0k0ot9m] {
+    display: grid;
+    grid-template-columns: repeat(20, 30px);
+    grid-gap: 2px;
+    border: 2px solid #000;
+    width: 660px;
+    background-color: #222;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cell[b-x4t0k0ot9m] {
+    width: 30px;
+    height: 30px;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 1.2;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.snake-body[b-x4t0k0ot9m] {
+    background-color: green;
+}
+/* /Pages/TicTacToe/TicTacToe.razor.rz.scp.css */
+.tictactoe-board[b-gvmy6wofue] {
     width: 31rem;
     height: 31rem;
     margin: auto;
@@ -59,16 +83,6 @@ h1[b-gvmy6wofue] {
     font-family: 'Roboto', sans-serif;
     color: #2E9982;
 }
-
-.message[b-gvmy6wofue] {
-    font-family: 'Montserrat', sans-serif;
-    color: #AFE79D; /* White text color */
-    padding: 10px;
-    width: 31rem; /* Same width as the board */
-    border: 2px solid #fff; /* White border around the message */
-    border-radius: 10px;
-}
-
 /* /Shared/AutoHidingNavMenu.razor.rz.scp.css */
 .auto-hiding-nav-menu[b-u69ml35g1z] {
     display: flex;
