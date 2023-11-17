@@ -14,6 +14,16 @@
         height: 100%;
         background: rgba(0, 0, 0, 0.9);
     }
+
+@media screen and (max-width: 768px) {
+    .iframe-container[b-ikn8s1yppm] {
+        height: auto;
+    }
+
+        .iframe-container iframe[b-ikn8s1yppm] {
+            height: 36vh;
+        }
+}
 /* /Pages/Snake/Snake.razor.rz.scp.css */
 .score-info[b-x4t0k0ot9m] {
     display: flex;
@@ -84,8 +94,6 @@
     grid-template-columns: repeat(3, 9.7rem); /* Specify column width */
     grid-template-rows: repeat(3, 9.7rem); /* Specify row height */
     gap: 5px; /* Add gap between cells */
-/*    background: rgba(0, 0, 0, 0.9);*/
-/*    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);*/
     padding: 10px;
     margin: 0 auto;
     border-radius: 10px;
@@ -94,7 +102,7 @@
 .cell[b-gvmy6wofue] {
     width: 100%; /* Set width to 100% to fill grid cell */
     height: 100%; /* Set height to 100% to fill grid cell */
-    border: 2px solid #fff;
+    border: 2px solid #dcdcdc;
     border-radius: 30px;
     background: #142A1F;
     opacity: 80;
