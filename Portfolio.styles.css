@@ -217,6 +217,7 @@
 
     .hide-sidebar[b-u69ml35g1z] {
         visibility: hidden;
+        height: 0px;
     }
 
     .show-sidebar[b-u69ml35g1z] {
@@ -225,7 +226,7 @@
 
     .nav-menu[b-u69ml35g1z] {
         height: 0%;
-        overflow:hidden;
+        overflow: hidden;
     }
 
     /* Additional styles for the hamburger bars */
